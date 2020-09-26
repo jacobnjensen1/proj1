@@ -8,6 +8,11 @@
     font-size: 1.2rem;
 }
 
+#product-bar {
+    background-color: rgb(143, 231, 183) !important;
+    font-size: 1.2rem;
+}
+
 article {
     width: 100%;
     min-height: 100%;
@@ -45,7 +50,12 @@ a:visited {
     font-style: italic;
 }
 
-.item-subtitle {
+.home-title {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.item-subtitle, .home-subtitle {
     margin-bottom: 1rem;
 }
 
@@ -81,7 +91,23 @@ a:visited {
     width: fit-content;
     padding: 1rem;
     margin: 3rem;
-    margin-top: 0;
+    margin-top: 2rem;
     font-size: 1.5rem;
     color: rgb(0, 86, 0);
+}
+
+#product-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.product-block {
+    width: 28%;
+    margin: 1rem;
+}
+
+.product-block img {
+    width: 100%;
 }

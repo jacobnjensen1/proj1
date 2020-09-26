@@ -6,7 +6,7 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <title>Weird Plant Emporium</title>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="css/styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
   <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
@@ -26,46 +26,67 @@
             <a class="nav-link" href="/">Weird Plant Emporium<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pranked.html">Products</a>
+            <a class="nav-link" href="pages/pranked.html">Products</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pranked.html">About</a>
+            <a class="nav-link" href="pages/pranked.html">About</a>
           </li>
         </ul>
 
         <!-- search and dropdown removed -->
       </div>
     </nav>
-    <div class="top-bar">
-      <a class="bar-link" href="pranked.html">Angiosperms</a>
-      <a class="bar-link" href="pranked.html">Gymnosperms</a>
-      <a class="bar-link" href="pranked.html">Ferns</a>
-      <a class="bar-link" href="pranked.html">Bryophytes</a>
-      <a class="bar-link" href="pranked.html">Lycophytes</a>
-    </div>
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light" id="product-bar">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="pranked.html">Angiosperms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pranked.html">Gymnosperms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pranked.html">Ferns</a>
+          </li>
+        </ul>
+
+        
+      </div>
+    </nav> -->
 
     <main>
-      <h1 class="item-title">Codariocalyx motorius</h1>
-      <h2 class="item-subtitle">Semaphore Plant, Dancing Plant</h2>
-      <div class="item-body">
-        <img class="item-img" src="semaphore.jpeg" />
-        <div class="item-block">
-          <h3 class="item-subheader">About this plant</h2> 
-          <p class="item-info"><em>C. motorius</em> is native to Southeast Asia. It may be possible to grow it indoors in Utah, but it certainly prefers humid areas. 
-        This plant is in Fabaceae, the pea family, and has small purple to white pea-like flowers. This plant needs well draining soil in full to partial sun. 
-        This plant is used medicinally by some people, but it contains toxic alkaloids, so care should be taken if you want to consume this plant safely.</p>
-        </div>  
-        <div class="item-block">
-          <h3 class="item-subheader">Why this plant is cool</h3>
-          <p class="item-info"><em>C. motorius</em> is notable for being capable of rapid plant movement. Its leaves constantly move in circular patterns.
-          It is not known exactly why this is done. Some hypotheses are that it helps the plant optimize leaf position for maximum sunlight, that it 
-          reduces the likelihood that butterflies will lay eggs on it by mimicking a butterfly, or that it deter predators. 
-          The answer will almost certainly never be known, but it is fascinating that it does this nonetheless.</p> 
+      <h1 class="home-title">Weird Plant Emporium</h1>
+      <h2 class="home-subtitle">We have the weirdest plants</h2>
+      
+      <div id="product-holder">
+        <div class="product-block">
+          <h3>Angiosperms</h3>
+          <p>Angiosperms represent the majority of plant species. These plants all produce flowers.</p>
+          <img src="/images/motoriusFlower.jpg"/>
+          <a href="/pages/pranked.html"><div class="buy-button">Angiosperms</div></a>
         </div>
-        <a href="pranked.html"><div class="buy-button">Buy this plant!</div></a>
+        <div class="product-block">
+          <h3>Gymnosperms</h3>
+          <p>Gymnosperms include well known plants such as pines, but also include some weirdos. These do not flower.</p>
+          <img src="/images/mirabilisCone.jpg"/>
+          <a href="/pages/pranked.html"><div class="buy-button">Gymnosperms</div></a>
+        </div>
+        <div class="product-block">
+          <h3>Ferns</h3>
+          <p>Ferns are an old lineage of plant, and have a fair amount of diversity. These reproduce by spores, instead of seeds.</p>
+          <img src="/images/staghorn.jpeg"/>
+          <a href="/pages/pranked.html"><div class="buy-button">Ferns</div></a>
+        </div>
       </div>
-    <div class="img-citation"><a href="https://commons.wikimedia.org/wiki/File:Thozhukanni.JPG" title="via Wikimedia Commons">പ്രശാന്ത്‌
-      ഇറവങ്കര</a> / <a href="https://creativecommons.org/licenses/by/3.0">CC BY</a></div>
+
+
     </main>
     
     

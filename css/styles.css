@@ -1,0 +1,87 @@
+.top-bar {
+    width: 100%;
+    height: auto;
+    background-color: rgb(143, 231, 183);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-size: 1.2rem;
+}
+
+article {
+    width: 100%;
+    min-height: 100%;
+    font-family: 'Abel', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+}
+
+.top-bar a:first-of-type {
+    padding-left: 25px;
+}
+
+.bar-link {
+    padding: 8px 15px 8px 15px;
+    color: rgb(0, 105, 0);
+    
+}
+
+.bg-light {
+    background-color: rgb(52, 214, 125) !important;
+    font-size: 1.4rem;
+}
+
+a:visited {
+    color: rgb(0, 105, 0);
+}
+
+.item-title {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    font-style: italic;
+}
+
+.item-subtitle {
+    margin-bottom: 1rem;
+}
+
+.item-body {
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item-img {
+    width: 25rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem
+}
+
+.item-block {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 25rem;
+    height: fit-content;
+    margin: 2rem;
+    margin-top: 0;
+}
+
+.item-info {
+    font-size: 1.08rem;
+}
+
+.buy-button {
+    border-radius: 10px;
+    background-color: rgb(52, 214, 125);
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem;
+    margin: 3rem;
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: rgb(0, 86, 0);
+}
